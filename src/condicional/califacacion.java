@@ -22,7 +22,7 @@ public class califacacion
        nota2 = Float.parseFloat(JOptionPane.showInputDialog("Ingrese la nota 2"));
        nota3 = Float.parseFloat(JOptionPane.showInputDialog("Ingrese la nota 3"));
        
-       promedio= (nota1 + nota2 + nota3) /3;
+       promedio= (nota1 + nota2 + nota3) /3; //las 3 notas se divide
       
          JOptionPane.showMessageDialog(null, "El promedio es: "+promedio);
         
@@ -30,13 +30,13 @@ public class califacacion
         
         {
         
-        //si  no  se cumple la  condicion s e ejecuta esto
-            JOptionPane.showMessageDialog(null, "Aprobo");
+        //si  no  se cumple esta   condicion  ejecuta esto
+            JOptionPane.showMessageDialog(null, " SI Aprobado");
         }
          
         else
         {
-        JOptionPane.showMessageDialog(null, "Reprobo"); 
+        JOptionPane.showMessageDialog(null, "No Reprobado"); 
         
         }
        
@@ -44,7 +44,7 @@ public class califacacion
         
             
         }
-   // TODO code application logic here
+   // termino de la clase de calificacion
     }
     
 
