@@ -17,7 +17,7 @@ public class switchNotas
     
     {
     
-     float nota = float.parseFloat(JOptionPane.showInputDialog("Ingrese un nota "));
+     float nota = Float.parseFloat(JOptionPane.showInputDialog("Ingrese un nota "));
     //El metodo round es para redondear un decimal
      
      switch(Math.round(nota)) //Se recibe un valor
