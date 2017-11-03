@@ -16,22 +16,40 @@ public class calificacion2
       public static void main(String[] args) 
     {
        float nota1, nota2,nota3,nota4;
-       nota1 = Float.parseFloat(JOptionPane.showInputDialog("Ingrese nota 7 es Notable"));
-       nota2 = Float.parseFloat(JOptionPane.showInputDialog("Ingrese nota 6 Bien"));
-       nota3 = Float.parseFloat(JOptionPane.showInputDialog("Ingrese si es entre 4 y5 es suficiente"));
-       nota4 = Float.parseFloat(JOptionPane.showInputDialog("Ingrese nota 4 es Insuficiente"));
+       nota1 = Float.parseFloat(JOptionPane.showInputDialog("Ingrese nota "));
+       nota2 = Float.parseFloat(JOptionPane.showInputDialog("Ingrese nota "));
+       nota3 = Float.parseFloat(JOptionPane.showInputDialog("Ingrese nota"));
+       nota4 = Float.parseFloat(JOptionPane.showInputDialog("Ingrese nota "));
+         
+                //Ingresando variable
+      
+         
+        
+        if (nota1==7)
        
-       
-       
-        if (numero1 == numero2)//aqui va una  condicion
-        {
+       {
+           
             
         //si la  condicion se cumple  se ejecuta este  codigo    
-        JOptionPane.showMessageDialog(null, "Son Iguales");
+        JOptionPane.showMessageDialog(null,"Notable");
         
         }
+        else
+        {
+            
+        }
+            
+        }}
         
         else 
         {
-  
+         if(nota==6)
+       JOptionPane.showMessageDialog(null,"Bien");}
+        else}
+       if(nota<nota<5)
+       JOptionPane.showMessageDialog(null,insuficiente);}
+{
+
+}
+
 }
